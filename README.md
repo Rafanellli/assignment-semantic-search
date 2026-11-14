@@ -78,8 +78,8 @@ Instruksi prompt membantu membatasi jawaban, tetapi belum merupakan jaminan bahw
 Buka terminal PowerShell di folder utama repository. Gunakan Python 3.11 agar mengikuti versi lingkungan pengerjaan, lalu buat environment:
 
 ```powershell
-py -3.11 -m venv tugas2
-.\tugas2\Scripts\Activate.ps1
+py -3.11 -m venv tugas3
+.\tugas3\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 ```
 
@@ -110,7 +110,7 @@ Tambahkan minimal baris berikut ke `.gitignore`:
 
 ```gitignore
 .env
-tugas2/
+tugas3/
 __pycache__/
 .ipynb_checkpoints/
 ```
